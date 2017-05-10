@@ -2,9 +2,10 @@
 
 ![](assets/profile.png)
 
-劉艾霖（[alincode](https://github.com/alincode)）
+劉艾霖（[alincode](https://slides.com/alincode/introduce_myself)）
 
 * [創科資訊](http://trunk-studio.com/) - 軟體技術顧問
+* <https://github.com/alincode>
 * 具有實務上的 Web Full Stack 開發，及協助企業導入網站自動化測試實務經驗，熟悉 Java 及 Javascript 開發，目前從事企業技術教學與顧問。
 
 ### 擅長領域
