@@ -15,3 +15,9 @@
 * 使用 [GitHub Issues](https://github.com/alincode/takming-testing/issues) 回報錯誤
 * 發 pull request
 * 寄信到 alincode@gmail.com
+
+<!--
+詢問學生程度：
+* 網頁開發
+* Github
+-->

@@ -1,5 +1,6 @@
 # Selenium
 
+* <https://github.com/christian-bromann/awesome-selenium>
 * 免費使用 (Open source project)
 * 自動化控制使用者介面
 * 支援多種瀏覽器：Firefox、Chrome、IE、Edga...

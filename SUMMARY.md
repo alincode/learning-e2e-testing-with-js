@@ -10,6 +10,7 @@
   * [測試金字塔](foundation/test-pyramid.md)
   * [測試環境的種類](foundation/test-env.md)
   * [安裝測試環境](install/README.md)
+  * [前端框架](foundation/frontend-framework.md)
   * [介紹 Selenium](selenium/README.md)
   * [介紹 Selenium RC](selenium/selenium-rc.md)
   * [介紹 Selenium Grid](selenium/selenium-grid.md)
