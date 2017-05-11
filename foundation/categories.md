@@ -10,14 +10,20 @@
 **功能測試**
 
 * 邏輯功能測試
-* 介面測試
 * 好用性測試
 * 相容性測試(ie9, ie10, ie11, android 版本?)
 
+![](https://learngeb-ebook.readbook.tw/cloud-browser-testing/new_session.png)
+
 **效能測試**
 
-* 時間效能：回應時間長短
-* 空間效能：消耗的系統資源，例如：記憶體使用率、網路頻寬。
+時間效能：回應時間長短
+
+![](assets/network.png)
+
+空間效能：消耗的系統資源，例如：記憶體使用率、網路頻寬。
+
+![](assets/memory-free.png)
 
 ### 延伸閱讀
 
