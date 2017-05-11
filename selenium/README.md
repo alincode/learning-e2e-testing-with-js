@@ -31,3 +31,68 @@
 
 * [GitHub - SeleniumHQ/selenium: A browser automation framework and ecosystem.](https://github.com/SeleniumHQ/selenium)
 * [Selenium Documentation — Selenium Documentation](http://docs.seleniumhq.org/docs/)
+
+## Selenium Remote Control
+
+簡稱 **Selenium RC**，它提供可以遠端執行 Selenium 的 Client / Server 架構。
+
+Selenium Server 是複雜控制瀏覽器行為，Selenium Client 則是用於撰寫測試腳本來跟 Selenium Server 溝通。
+
+<!--
+Selenium Server 包含：
+* Launcher：啟動瀏覽器
+* Http Proxy
+* Core
+-->
+
+### 執行 Selenium Server
+
+至 <http://www.seleniumhq.org/download/> 下載 selenium-server-standalone-3.4.0.jar 檔
+
+```
+cd Downloads
+java -jar selenium-server-standalone-3.4.0.jar
+```
+
+<http://127.0.0.1:4444/wd/hub>
+
+### 練習題
+
+* 執行 Selenium Server
+
+## Selenium Grid
+
+圖片來源：[Introducing the Sauce Plugin for Selenium Grid | Sauce Labs](https://saucelabs.com/blog/introducing-the-sauce-plugin-for-selenium-grid)
+
+![](https://az184419.vo.msecnd.net/sauce-labs/blog-images/se_grid_blog.jpg)
+
+控制多台機器，每次測試任務都先呼叫 Hub，然後再由路由 (Hub) 分配給節點 (Node)。
+
+<http://127.0.0.1:4444/wd/hub>
+
+* Selenium Grid Hub
+* Selenium Grid Node
+
+<!-- selenium-standalone start  -->
+
+## Selenium WebDriver
+
+![](http://nightwatchjs.org/img/operation.png)
+
+許多網頁自動化測試框架，都是以 Selenium WebDriver API 作為基礎，功能強大且穩固已經讓 Selenium 成為瀏覽器自動化的基石。Selenium 2.0 帶來 WebDriver 的實作，跨越不同瀏覽器的自動化操作，有更清楚定義的標準可循，目前 [WebDriver API](http://www.w3.org/TR/webdriver/) 規範已提交 W3C，若能夠被標準化且在各大瀏覽器實作，執行跨瀏覽器的自動化測試工作將會被簡化許多。
+
+## Selenium IDE
+
+Selenium IDE 是 Firefox 附加元件 (extension)，需要搭配 Firefox 瀏覽器才能使用。
+
+### 開啟 Selenium IDE
+
+在 Firefox 瀏覽器的**工具**選單，打開 **Selenium IDE** 會出現下面這個視窗畫面：
+
+![](assets/selenium-ide.png)
+
+### 延伸閱讀
+
+* <https://www.w3.org/TR/webdriver/>
+* <http://seleniumhq.github.io/selenium/docs/api/javascript/module/selenium-webdriver/>
+* <https://github.com/SeleniumHQ/selenium/tree/master/javascript/node/selenium-webdriver>
