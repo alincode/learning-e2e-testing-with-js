@@ -16,6 +16,7 @@ Selenium Server 包含：
 至 <http://www.seleniumhq.org/download/> 下載 selenium-server-standalone-3.4.0.jar 檔
 
 ```
+cd Downloads
 java -jar selenium-server-standalone-3.4.0.jar
 ```
 
