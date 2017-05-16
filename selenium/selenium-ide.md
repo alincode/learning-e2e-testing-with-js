@@ -112,19 +112,6 @@
  selectAndWait | dropDown         | index=0
  selectAndWait | dropDown         | value=AUD
 
-### 錄製一個測試案例
-
-操作 Selenium IDE 就像錄影機，在開始「錄製」後，在瀏覽器操作網站的動作就會被捕捉，產生測試案例（Test Case）的內容。錄製完成後，可以用「播放」重新把網站操作過程重播一次。
-
-這是使用 Selenium 進行網站自動化的基礎，以 Google 搜尋為例，建立一組測試案例包含：
-
-1. 前往 <https://www.google.com.tw> 網址
-1. 在文字輸入框輸入 `selenium ide`
-1. 然後按下**Google 搜尋**按鈕
-1. 取得搜尋結果，檢查結果是否包含預期的內容
-
-<!-- 留一點時間讓大家練習看看 -->
-
 ### 錄製一個自動填寫表單的程式
 
 <http://bit.ly/watir-example>
