@@ -22,6 +22,8 @@ name=name：選擇帶有特定 @name 屬性的元素。
 <div name="myName">hello</div>
 ```
 
+**練習題：使用 identifier 與 Name 選擇方式**
+
 ### DOM
 
 dom=javascriptExpression：以 JavaScript 的方式選擇 DOM，開頭必定是 document.。例如 dom=document.images[2]。
@@ -79,6 +81,8 @@ link=Cancel
 <html>
 ```
 
+**練習題：使用 xpath 與 link 選擇方式**
+
 ### CSS selector
 
 css=cssSelectorSyntax：以 CSS 選擇器來選擇元素，請參考 CSS2 選擇器、CSS3 選擇器的說明。這應該是網頁工程師最容易使用的定位器吧。
@@ -105,15 +109,9 @@ css=#loginForm input:nth-child(2)
  <html>
 ```
 
+**練習題：使用 CSS 選擇方式**
+
 ![](assets/css-selector.png)
-
-## 練習題
-
-### 練習題一：identifier 與 Name
-
-### 練習題二：xpath 與 link
-
-### 練習題三：CSS selector
 
 ## 延伸閱讀
 

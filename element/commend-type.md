@@ -61,6 +61,7 @@
 
 ## 存取（Accessors）
 
+**storeTitle**
 **store**
 
 命令 (Command) | 目標 (Target) | 值 (Value)
@@ -70,8 +71,6 @@
 命令 (Command) | 目標 (Target) | 值 (Value)
 --------------|----------|---------
  type | id=email | ${myEmail}
-
-**storeTitle**
 
 **storeText**
 
@@ -147,15 +146,11 @@
 * 中斷點的使用
 * 匯出測試程式原始碼
 
-## 實戰練習
-
-### 新增一個完整的測試程式
-
-<http://keystonejs.com/>
-
+<!--
 ### 擴充指令
 
 ![](http://www.seleniumhq.org/docs/_images/chapt3_img32_Extensions_install.png)
+-->
 
 ### 延伸閱讀
 
