@@ -129,7 +129,6 @@
 
 可供測試的網站：
 <http://bit.ly/watir-example>
-<http://bit.ly/watir-example>
 
 ![](assets/ex01.png)
 
