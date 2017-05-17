@@ -37,20 +37,20 @@
 
 ![](http://www.seleniumhq.org/docs/_images/chapt3_img15_Record.png)
 
+逐步執行
+
+![](http://www.seleniumhq.org/docs/_images/chapt3_img12_Step.png)
+
 暫停 / 恢復
 
 ![](http://www.seleniumhq.org/docs/_images/chapt3_img10_Pause.png)
 
-執行下一步
-
-![](http://www.seleniumhq.org/docs/_images/chapt3_img12_Step.png)
-
 **練習題四**
 
-* 錄影
-* 設定中斷點
-* 恢復
+* 錄影 <http://demoqa.com/>
+* 設定中斷點 / 移除中斷點
 * 逐步執行
+* 恢復
 
 ### 面板
 
@@ -65,14 +65,6 @@
 **測試案例面板 (Test Case Pane)**
 
 ![](http://www.seleniumhq.org/docs/_images/chapt3_img16_Table_Format.png)
-
-**命令組成**
-
-![](assets/commend.png)
-
-* 指令 (Command)：行為 / 事件
-* 目標 (Target)：選取元素
-* 值 (Value)
 
 ### 延伸閱讀
 

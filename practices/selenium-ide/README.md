@@ -10,3 +10,9 @@
 密碼：demo
 
 ![](assets/signin.png)
+
+### 練習題二：註冊
+
+<http://demoqa.com/registration/>
+
+![](assets/registration.png)

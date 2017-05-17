@@ -1,4 +1,14 @@
-# Selenium 指令的種類
+# Selenium 指令
+
+**命令組成**
+
+![](assets/commend.png)
+
+* 指令 (Command)：行為 / 事件
+* 目標 (Target)：選取元素
+* 值 (Value)
+
+**指令的種類**
 
 * 操作（Actions）
 * 存取（Accessors）
@@ -13,7 +23,7 @@
 命令 (Command) | 目標 (Target) | 值 (Value)
 ---------|----------|---------
  open    | /test    | 
- open    | http://www.google.com.tw/test | 
+ open    | http://demoqa.com | 
 
 **click：模擬點擊一下**
 
@@ -49,8 +59,6 @@
 --------------|----------|---------
  pause | 5000 | 
 
-### 練習題
-
 ## 存取（Accessors）
 
 **store**
@@ -67,7 +75,9 @@
 
 **storeText**
 
-### 練習題
+**練習題**
+
+![](assets/storeText.png)
 
 ## 驗證（Assertions）
 
@@ -88,19 +98,13 @@
 
 #### 驗證（assert）vs 辨識（verify）
 
+![](assets/assert.png)
+
 差別在於處理錯誤的方式
 
 * 驗證（assert）發生錯誤時，測試將會終止。
 * 辨識（verify）：發生錯誤時，只是將錯誤訊息留下記錄，測試將會繼續執行不會中斷。
   * 使用情境：不影響整體測試流程的小細節
-
-**verifyAllWindowTitles**
-
-* 驗證視窗標題
-
-命令 (Command)  | 目標 (Target) | 值 (Value)
-------------------------|------------------|---------
- verifyAllWindowTitles  | Google | 
 
 **verifyText**
 
@@ -110,6 +114,14 @@
 ---------------|------------------|---------
  verifyText    | xpath=/html/body/div[2]/div/p | 驗證的文字
  verifyText    | //html/body/div[2]/div/p | 驗證的文字
+
+**verifyAllWindowTitles**
+
+* 驗證視窗標題
+
+命令 (Command)  | 目標 (Target) | 值 (Value)
+------------------------|------------------|---------
+ verifyAllWindowTitles  | Google | 
 
 #### 等待（waitFor）
 
