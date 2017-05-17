@@ -6,19 +6,67 @@
 
 ## 操作（Actions）
 
+**open：前往某個頁面**
+
+![](http://www.seleniumhq.org/docs/_images/chapt3_img21_BaseURL_prod.png)
+
+命令 (Command) | 目標 (Target) | 值 (Value)
+---------|----------|---------
+ open    | /test    | 
+ open    | http://www.google.com.tw/test | 
+
+**click：模擬點擊一下**
+
+命令 (Command) | 目標 (Target) | 值 (Value)
+--------------|----------|---------
+ click        | myCheckbox | 
+ clickAndWait | mySubmitButton | 
+ clickAndWait | myLike | 
+
+**type：模擬鍵盤輸入**
+
+命令 (Command) | 目標 (Target) | 值 (Value)
+--------------|----------|---------
+ type         | myField | Hi
+ typeAndWait  | myField | Hi
+ 
+**select：模擬選取**
+
+命令 (Command)  | 目標 (Target) | 值 (Value)
+---------------|------------------|---------
+ select        | id=entry_1000004 | label=Firefox
+ select        | dropDown         | index=0
+ select        | dropDown         | value=AUD
+ selectAndWait | dropDown         | index=0
+ selectAndWait | dropDown         | value=AUD
+
+**pause**
+
+* 暫停
+* 單位是毫秒
+
+命令 (Command) | 目標 (Target) | 值 (Value)
+--------------|----------|---------
+ pause | 5000 | 
+
+### 練習題
+
 ## 存取（Accessors）
+
+**storeTitle**
+
+### 練習題
 
 ## 驗證（Assertions）
 
 * 驗證（assert）
+  * assertText
+  * assertTitle
 * 辨識（verify）
+  * verifyText
+  * verifyTextPresent
 * 等待（waitFor）
-
-```
-assertText
-verifyText
-waitForText
-```
+  * waitForText
 
 #### 驗證（assert）vs 辨識（verify）
 
@@ -28,9 +76,56 @@ waitForText
 * 辨識（verify）：發生錯誤時，只是將錯誤訊息留下記錄，測試將會繼續執行不會中斷。
   * 使用情境：不影響整體測試流程的小細節
 
+**verifyAllWindowTitles**
+
+* 驗證視窗標題
+
+命令 (Command)  | 目標 (Target) | 值 (Value)
+------------------------|------------------|---------
+ verifyAllWindowTitles  | Google | 
+
+**verifyText**
+
+* 驗證文字
+
+命令 (Command)  | 目標 (Target) | 值 (Value)
+---------------|------------------|---------
+ verifyText    | xpath=/html/body/div/div/div[2]/div[1]/p | 驗證的文字
+
 #### 等待（waitFor）
 
 等待某些情況發生時才生效，常用於非同步 (AJAX)。
+
+**waitForAllWindowTitle**
+
+* 等待視窗指定標題出現
+
+命令 (Command)  | 目標 (Target) | 值 (Value)
+------------------------|------------------|---------
+ waitForAllWindowTitle  | 您的標題 | 
+
+### 練習題
+
+### 錄製一個自動填寫表單的程式
+
+可供測試的網站：
+<http://bit.ly/watir-example>
+<http://bit.ly/watir-example>
+
+![](assets/ex01.png)
+
+* 中斷點的使用
+* 匯出測試程式原始碼
+
+## 實戰練習
+
+### 新增一個完整的測試程式
+
+<http://keystonejs.com/>
+
+### 進階功能
+
+* 擴充命令
 
 ### 延伸閱讀
 

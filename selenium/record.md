@@ -8,3 +8,15 @@
 1. 在文字輸入框輸入 `selenium ide`
 1. 然後按下**Google 搜尋**按鈕
 1. 取得搜尋結果，檢查結果是否包含預期的內容
+
+### HTML 原始碼
+
+```html
+<input class="gsfi" id="lst-ib" maxlength="2048" name="q" autocomplete="off" title="搜尋" value="" aria-label="搜尋" aria-haspopup="false" role="combobox" aria-autocomplete="both" dir="ltr" spellcheck="false" type="text">
+```
+
+```html
+<input value="Google 搜尋" aria-label="Google 搜尋" name="btnK" jsaction="sf.chk" type="submit">
+```
+
+<!-- 開啟 Firebug 解說 -->
