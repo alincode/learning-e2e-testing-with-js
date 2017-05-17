@@ -20,3 +20,10 @@
 ```
 
 <!-- 開啟 Firebug 解說 -->
+
+### 錄製一個自動填寫表單的程式
+
+可供測試的網站：
+<http://bit.ly/watir-example>
+
+![](assets/ex01.png)

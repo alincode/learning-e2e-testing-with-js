@@ -113,6 +113,10 @@ css=#loginForm input:nth-child(2)
 
 ![](assets/css-selector.png)
 
+* 補充工具的使用方式
+
+![](assets/select-button.png)
+
 ## 延伸閱讀
 
 * [CSS 選擇器參考手冊](http://www.w3school.com.cn/cssref/css_selectors.asp)
