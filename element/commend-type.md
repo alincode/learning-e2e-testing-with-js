@@ -53,7 +53,19 @@
 
 ## 存取（Accessors）
 
+**store**
+
+命令 (Command) | 目標 (Target) | 值 (Value)
+--------------|----------|---------
+ store | alincode@gmail.com | myEmail
+
+命令 (Command) | 目標 (Target) | 值 (Value)
+--------------|----------|---------
+ type | id=email | ${myEmail}
+
 **storeTitle**
+
+**storeText**
 
 ### 練習題
 
@@ -62,11 +74,17 @@
 * 驗證（assert）
   * assertText
   * assertTitle
+  * assertAlert
 * 辨識（verify）
   * verifyText
+  * verifyTitle
   * verifyTextPresent
+  * verifyElementPresent
+  * verifyTable
 * 等待（waitFor）
   * waitForText
+  * waitForPageToLoad
+  * waitForElementPresent
 
 #### 驗證（assert）vs 辨識（verify）
 
@@ -90,7 +108,8 @@
 
 命令 (Command)  | 目標 (Target) | 值 (Value)
 ---------------|------------------|---------
- verifyText    | xpath=/html/body/div/div/div[2]/div[1]/p | 驗證的文字
+ verifyText    | xpath=/html/body/div[2]/div/p | 驗證的文字
+ verifyText    | //html/body/div[2]/div/p | 驗證的文字
 
 #### 等待（waitFor）
 
