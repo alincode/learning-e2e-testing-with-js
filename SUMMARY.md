@@ -14,7 +14,6 @@
   * [錄製一個測試案例](selenium/record.md)
 * [第二週 - 指令的應用]()
   * [Selenium IDE UI 功能解說](selenium/selenium-ide.md)
-  * [指令的構成](element/commend.md)
   * [選取元素](element/selector.md)
   * [指令的種類](element/commend-type.md)
   * [測試相關專有名詞](foundation/terms.md)

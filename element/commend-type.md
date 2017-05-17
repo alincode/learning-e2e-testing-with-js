@@ -142,9 +142,9 @@
 
 <http://keystonejs.com/>
 
-### 進階功能
+### 擴充指令
 
-* 擴充命令
+![](http://www.seleniumhq.org/docs/_images/chapt3_img32_Extensions_install.png)
 
 ### 延伸閱讀
 
