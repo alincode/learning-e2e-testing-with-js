@@ -1,13 +1,5 @@
 # Selenium IDE 解說
 
-### 重要觀念
-
-* 命令 (Command)：針對選取的元素做出一些行為
-* 目標 (Target)：選取元素
-  * css 選擇器
-  * xpath
-* 值 (Value)
-
 ### HTML 原始碼
 
 ```html
