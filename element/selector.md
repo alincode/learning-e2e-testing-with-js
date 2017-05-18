@@ -111,6 +111,8 @@ css=#loginForm input:nth-child(2)
 
 **練習題：使用 CSS 選擇方式**
 
+<http://flukeout.github.io/>
+
 ![](assets/css-selector.png)
 
 * 補充工具的使用方式
