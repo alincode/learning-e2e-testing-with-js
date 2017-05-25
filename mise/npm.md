@@ -1,6 +1,6 @@
 # NPM 套件管理工具
 
-* 類似 maven
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/540px-Npm-logo.svg.png)
 
 ### 初始化專案
 
@@ -43,6 +43,12 @@ npm init -f
 
 使用 `npm init` 指令新增一個專案
 
+```
+mkdir demo
+cd demo
+npm init -y
+```
+
 ### 安裝套件
 
 * [install | npm Documentation](https://docs.npmjs.com/cli/install)
@@ -55,19 +61,10 @@ npm init -f
 * --save-dev：development (預設)
 * 什麼都沒加的情況
 
-<!-- 示範有 -g -S 的情況，及沒有加 --save 的情況。 -->
-
-**安裝專案下所有的套件**
-
-```
-cd your-project-folder
-npm install
-```
-
 **安裝到專案，並將依賴寫入 package.json 的 devDependencies**
 
 ```
-npm install --save-dev selenium-webdriver
+npm install --save-dev webdriverio
 ```
 
 ### 執行 script
