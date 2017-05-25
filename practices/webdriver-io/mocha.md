@@ -1,5 +1,13 @@
 # WebdriverIO 實戰練習 - 撰寫第一個單元測試程式
 
+```
+npm install mocha -g
+
+或
+npm install mocha --save-dev
+node_modules/.bin/mocha
+```
+
 **範例**
 
 ```js
