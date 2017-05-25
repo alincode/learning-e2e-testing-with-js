@@ -1,6 +1,6 @@
 # 介紹 Webdriver.IO
 
-* <https://github.com/christian-bromann/awesome-selenium>
+* [awesome-selenium](https://github.com/christian-bromann/awesome-selenium)
 * <http://slides.com/alincode/deck-3#/>
 
 ### 有兩種模式 (Mode)

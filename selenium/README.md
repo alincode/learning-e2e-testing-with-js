@@ -45,21 +45,6 @@ Selenium Server 包含：
 * Core
 -->
 
-### 執行 Selenium Server
-
-至 <http://www.seleniumhq.org/download/> 下載 selenium-server-standalone-3.4.0.jar 檔
-
-```
-cd Downloads
-java -jar selenium-server-standalone-3.4.0.jar
-```
-
-<http://127.0.0.1:4444/wd/hub>
-
-### 練習題
-
-* 執行 Selenium Server
-
 ## Selenium Grid
 
 圖片來源：[Introducing the Sauce Plugin for Selenium Grid | Sauce Labs](https://saucelabs.com/blog/introducing-the-sauce-plugin-for-selenium-grid)
