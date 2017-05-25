@@ -15,6 +15,14 @@ java -jar selenium-server-standalone-3.4.0.jar
 
 <http://127.0.0.1:4444/wd/hub>
 
+**或**
+
+```
+npm install selenium-standalone -g
+selenium-standalone install
+selenium-standalone start
+```
+
 ### 啟動 REPL
 
 ```
