@@ -53,8 +53,6 @@ Selenium Server 包含：
 
 Selenium Grid 主要控制多台機器(RC Node)，每次測試任務都先呼叫 Hub，然後再由路由 (Hub) 分配給節點 (Node)。
 
-<http://127.0.0.1:4444/wd/hub>
-
 * Selenium Grid Hub
 * Selenium Grid Node
 

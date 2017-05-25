@@ -34,7 +34,6 @@
   * [WebdriverIO 設定檔]()
   * [WebdriverIO API]()
   * [WebdriverIO 實戰練習 - 新增帳號](webdriverio/ex02.md)
-  * [Page Object 模式]()
   * [測試工程師應具備的能力]()
   * [業界動態]()
   * [更多學習資源]()
