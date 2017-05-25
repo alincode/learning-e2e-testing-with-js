@@ -3,7 +3,6 @@
 * 安裝 JDK
 * 安裝 NPM
 * 安裝 Selenium IDE
-* 安裝 [VSCode](https://code.visualstudio.com/)
 
 ### 安裝 JDK
 
