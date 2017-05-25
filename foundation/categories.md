@@ -11,7 +11,7 @@
 
 * 邏輯功能測試
 * 好用性測試
-* 相容性測試(ie9, ie10, ie11, android 版本?)
+* 相容性測試(ie9, ie10, ie11, android 版本...)
 
 ![](https://learngeb-ebook.readbook.tw/cloud-browser-testing/new_session.png)
 
