@@ -4,7 +4,18 @@
 
 ![](http://webdriver.io/images/repl.gif)
 
-**啟動 REPL**
+### 執行 Selenium Server
+
+至 <http://www.seleniumhq.org/download/> 下載 selenium-server-standalone-3.4.0.jar 檔
+
+```
+cd Downloads
+java -jar selenium-server-standalone-3.4.0.jar
+```
+
+<http://127.0.0.1:4444/wd/hub>
+
+### 啟動 REPL
 
 ```
 node_modules/.bin/wdio repl firefox
