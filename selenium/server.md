@@ -13,10 +13,8 @@ java -jar selenium-server-standalone-3.4.0.jar
 
 **或**
 
-![](https://raw.githubusercontent.com/vvo/selenium-standalone/master/screencast.gif)
-
 ```
-npm install selenium-standalone -g
-selenium-standalone install
-selenium-standalone start
+npm install webdriver-manager -g
+webdriver-manager update
+webdriver-manager start
 ```
