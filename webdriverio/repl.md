@@ -4,10 +4,17 @@
 
 ![](http://webdriver.io/images/repl.gif)
 
+### 安裝 webdriverio 到全域環境
+
+```
+npm install webdriverio -g
+```
+
 ### 啟動 REPL
 
 ```
-node_modules/.bin/wdio repl firefox
+wdio repl firefox
+wdio repl chrome
 ```
 
 ### 實戰練習：取得 Dcard 的頭條

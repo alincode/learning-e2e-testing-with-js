@@ -24,7 +24,7 @@
   * [Javascript 基礎](foundation/js.md)
   * [NPM 套件管理工具](mise/npm.md)
   * [介紹 WebdriverIO](webdriverio/README.md)
-  * [啟動 Selenium Server](selenium/server.md)
+  * [設定 Selenium Server 環境](selenium/server.md)
   * [用 REPL 來練習撰寫自動化程式](webdriverio/repl.md)
   * [練習寫單元測試](webdriverio/mocha.md)
   * [WebdriverIO 常用指令語法](webdriverio/commend.md)
@@ -37,10 +37,3 @@
   * [測試工程師應具備的能力]()
   * [業界動態]()
   * [更多學習資源]()
-
-<!--
-* [前端框架](foundation/frontend-framework.md)
-* [前端測試框架](foundation/end-to-end-testing-framework.md)
--->
-  
-<!--* [Webdriver API](webdriver/README.md)-->

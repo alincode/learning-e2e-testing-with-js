@@ -1,9 +1,15 @@
 # WebdriverIO 初始化專案
 
+**安裝 webdriverio 到全域環境**
+
+```
+npm install webdriverio -g
+```
+
 **初始化測試專案**
 
 ```
-$ node_modules/.bin/wdio
+$ wdio
 
 =========================
 WDIO Configuration Helper
@@ -49,5 +55,5 @@ b.com/webdriverio/wdio-selenium-standalone-service
 **執行方式**
 
 ```
-node_modules/.bin/wdio wdio.conf.js
+wdio wdio.conf.js
 ```
