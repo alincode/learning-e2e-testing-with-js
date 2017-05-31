@@ -27,13 +27,16 @@
   * [設定 Selenium Server 環境](selenium/server.md)
   * [用 REPL 來練習撰寫自動化程式](webdriverio/repl.md)
   * [練習寫單元測試](webdriverio/mocha.md)
+* [第四週 - 網頁自動化測試進階(WebdriverIO)]()
+  * [初始化測試的專案](webdriverio/init.md)
+  * [WebdriverIO 設定檔](webdriverio/conf.md)
   * [WebdriverIO 常用指令語法](webdriverio/commend.md)
-  * [WebdriverIO 初始化專案](webdriverio/init.md)
-* [第四週 - 網頁自動化測試進階]()
-  * [WebdriverIO 實戰練習 - 登入和登出](webdriverio/ex01.md)
-  * [WebdriverIO 設定檔]()
-  * [WebdriverIO API]()
-  * [WebdriverIO 實戰練習 - 新增帳號](webdriverio/ex02.md)
+  * [實戰練習 - 登入和登出](webdriverio/ex01.md)
+  * [Page Object 模式](webdriverio/page-object-pattern.md)
+  * [實戰練習 - 計算機](webdriverio/ex02.md)
   * [測試工程師應具備的能力]()
   * [業界動態]()
   * [更多學習資源]()
+
+
+  <!--* [WebdriverIO API 使用方式](webdriverio/api.md)-->

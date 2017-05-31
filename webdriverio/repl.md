@@ -7,14 +7,23 @@
 ### 安裝 webdriverio 到全域環境
 
 ```
-npm install webdriverio -g
+npm install webdriverio
 ```
 
 ### 啟動 REPL
 
+**Mac**
+
 ```
-wdio repl firefox
-wdio repl chrome
+node_modules/.bin/wdio repl firefox
+node_modules/.bin/wdio repl chrome
+```
+
+**window**
+
+```
+node_modules\.bin\wdio repl firefox
+node_modules\.bin\wdio repl chrome
 ```
 
 ### 實戰練習：取得 Dcard 的頭條
