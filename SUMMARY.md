@@ -33,7 +33,7 @@
   * [WebdriverIO 常用指令語法](webdriverio/commend.md)
   * [實戰練習 - 登入和登出](webdriverio/ex01.md)
   * [Page Object 模式](webdriverio/page-object-pattern.md)
-  * [實戰練習 - 計算機](webdriverio/ex02.md)
+  * [自行挑戰題 - 計算機](webdriverio/ex02.md)
   * [測試工程師應具備的能力]()
   * [業界動態]()
   * [更多學習資源]()
