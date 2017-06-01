@@ -34,9 +34,4 @@
   * [實戰練習 - 登入和登出](webdriverio/ex01.md)
   * [Page Object 模式](webdriverio/page-object-pattern.md)
   * [自行挑戰題 - 計算機](webdriverio/ex02.md)
-  * [測試工程師應具備的能力]()
-  * [業界動態]()
-  * [更多學習資源]()
-
-
-  <!--* [WebdriverIO API 使用方式](webdriverio/api.md)-->
+  <!--* [更多學習資源]()-->
