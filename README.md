@@ -13,3 +13,5 @@
 * 使用 [GitHub Issues](https://github.com/alincode/takming-testing/issues) 回報錯誤
 * 發 pull request
 * 寄信到 alincode@gmail.com
+
+最新更新時間：2017/06/07

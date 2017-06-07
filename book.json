@@ -1,0 +1,22 @@
+{
+  "title": "2017 德明財經科技大學 - 網站自動化測試課程",
+  "language": "zh",
+  "author": "alincode <alincode@gmail.com>",
+  "fontState": {
+    "size": "2",
+    "family": "sans",
+    "theme": "night"
+  },
+  "pdf": {
+    "pageNumbers": true, 
+    "fontFamily": "Arial",
+    "fontSize": 12,
+    "paperSize": "a4",
+    "margin": {
+      "right": 62,
+      "left": 62,
+      "top": 56,
+      "bottom": 56
+    }
+  }
+}
