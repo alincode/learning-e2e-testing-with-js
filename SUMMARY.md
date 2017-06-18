@@ -12,7 +12,7 @@
     * [安裝測試環境](install/README.md)
     * [介紹 Selenium](selenium/README.md)
     * [錄製一個測試案例](selenium/record.md)
-* 第二週 - 指令的應用
+* 第二週 - 指令介紹的應用
     * [Selenium IDE UI 功能解說](selenium/selenium-ide.md)
     * [測試相關專有名詞](foundation/terms.md)
     * [選取元素](element/selector.md)

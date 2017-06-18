@@ -1,4 +1,4 @@
-# 測試環境
+# 測試環境的種類
 
 ![](https://i-msdn.sec.s-msft.com/dynimg/IC721395.png)
 
