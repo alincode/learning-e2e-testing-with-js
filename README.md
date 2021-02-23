@@ -1,6 +1,10 @@
 # 2017 德明財經科技大學 - 網站自動化測試課程
 
-講師：劉艾霖 (alincode) - [創科資訊軟體技術顧問](http://trunk-studio.com/)
+講師：劉艾霖 (alincode)
+
+### 合作洽談
+
+請來信至 <alin.code@gmail.com>
 
 ### 授權
 
@@ -10,8 +14,8 @@
 
 如發現內容勘誤，歡迎利用這些管道和我聯繫：
 
-* 使用 [GitHub Issues](https://github.com/alincode/takming-testing/issues) 回報錯誤
-* 發 pull request
-* 寄信到 alincode@gmail.com
+- 使用 [GitHub Issues](https://github.com/alincode/takming-testing/issues) 回報錯誤
+- 發 pull request
+- 寄信到 alin.code@gmail.com
 
 最新更新時間：2017/06/07
