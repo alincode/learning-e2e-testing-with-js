@@ -1,0 +1,746 @@
+
+<!DOCTYPE HTML>
+<html lang="zh" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Javascript 基礎 · 2017 德明財經科技大學 - 網站自動化測試課程</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="alincode <alincode@gmail.com>">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../mise/npm.html" />
+    
+    
+    <link rel="prev" href="../install/vscode.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="輸入並搜尋" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    推廣
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../promotion/about-me.html">
+            
+                <a href="../promotion/about-me.html">
+            
+                    
+                    關於我 & 公司
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../promotion/activity.html">
+            
+                <a href="../promotion/activity.html">
+            
+                    
+                    相關活動
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    第一週 - 測試基礎
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="categories.html">
+            
+                <a href="categories.html">
+            
+                    
+                    測試分類
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="manual-vs-automation-testing.html">
+            
+                <a href="manual-vs-automation-testing.html">
+            
+                    
+                    手動測試 vs 自動化測試
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="test-pyramid.html">
+            
+                <a href="test-pyramid.html">
+            
+                    
+                    測試金字塔
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="test-env.html">
+            
+                <a href="test-env.html">
+            
+                    
+                    測試環境的種類
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../install/">
+            
+                <a href="../install/">
+            
+                    
+                    安裝測試環境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../selenium/">
+            
+                <a href="../selenium/">
+            
+                    
+                    介紹 Selenium
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../selenium/record.html">
+            
+                <a href="../selenium/record.html">
+            
+                    
+                    錄製一個測試案例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    第二週 - 指令介紹的應用
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../selenium/selenium-ide.html">
+            
+                <a href="../selenium/selenium-ide.html">
+            
+                    
+                    Selenium IDE UI 功能解說
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="terms.html">
+            
+                <a href="terms.html">
+            
+                    
+                    測試相關專有名詞
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../element/selector.html">
+            
+                <a href="../element/selector.html">
+            
+                    
+                    選取元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../element/commend-type.html">
+            
+                <a href="../element/commend-type.html">
+            
+                    
+                    指令的種類
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../practices/selenium-ide/ex01.html">
+            
+                <a href="../practices/selenium-ide/ex01.html">
+            
+                    
+                    Selenium IDE 實戰練習 - 登入和登出
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../practices/selenium-ide/ex02.html">
+            
+                <a href="../practices/selenium-ide/ex02.html">
+            
+                    
+                    Selenium IDE 實戰練習 - 新增帳號
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    第三週 - 網頁自動化測試基礎
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../install/vscode.html">
+            
+                <a href="../install/vscode.html">
+            
+                    
+                    安裝 VS Code
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.2" data-path="js.html">
+            
+                <a href="js.html">
+            
+                    
+                    Javascript 基礎
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../mise/npm.html">
+            
+                <a href="../mise/npm.html">
+            
+                    
+                    NPM 套件管理工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../webdriverio/">
+            
+                <a href="../webdriverio/">
+            
+                    
+                    介紹 WebdriverIO
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../selenium/server.html">
+            
+                <a href="../selenium/server.html">
+            
+                    
+                    設定 Selenium Server 環境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../webdriverio/repl.html">
+            
+                <a href="../webdriverio/repl.html">
+            
+                    
+                    用 REPL 來練習撰寫自動化程式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../webdriverio/mocha.html">
+            
+                <a href="../webdriverio/mocha.html">
+            
+                    
+                    練習寫單元測試
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    第四週 - 網頁自動化測試進階(WebdriverIO)
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../webdriverio/init.html">
+            
+                <a href="../webdriverio/init.html">
+            
+                    
+                    初始化測試的專案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../webdriverio/conf.html">
+            
+                <a href="../webdriverio/conf.html">
+            
+                    
+                    WebdriverIO 設定檔
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../webdriverio/commend.html">
+            
+                <a href="../webdriverio/commend.html">
+            
+                    
+                    WebdriverIO 常用指令語法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../webdriverio/ex01.html">
+            
+                <a href="../webdriverio/ex01.html">
+            
+                    
+                    實戰練習 - 登入和登出
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../webdriverio/page-object-pattern.html">
+            
+                <a href="../webdriverio/page-object-pattern.html">
+            
+                    
+                    Page Object 模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../webdriverio/ex02.html">
+            
+                <a href="../webdriverio/ex02.html">
+            
+                    
+                    自行挑戰題 - 計算機
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本書使用 GitBook 釋出
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Javascript 基礎</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="javascript-&#x57FA;&#x790E;">Javascript &#x57FA;&#x790E;</h1>
+<p><strong>&#x5BA3;&#x544A;</strong></p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> message;
+</code></pre>
+<p><strong>&#x5B57;&#x4E32;</strong></p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> message = <span class="hljs-string">&apos;&#x54C8;&#x56C9;&apos;</span>;
+<span class="hljs-keyword">var</span> name = <span class="hljs-string">&quot;alincode&quot;</span>;
+</code></pre>
+<p><strong>&#x6578;&#x5B57;</strong></p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> num1 = <span class="hljs-number">1</span>;
+<span class="hljs-keyword">var</span> num2 = <span class="hljs-number">1.5</span>;
+</code></pre>
+<p><strong>&#x7B49;&#x65BC;</strong></p>
+<ul>
+<li>===&#xFF1A;Strict equality</li>
+<li>==&#xFF1A;Loose equality</li>
+</ul>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> x = <span class="hljs-number">5</span>;
+<span class="hljs-built_in">console</span>.log(x == <span class="hljs-number">5</span>); 
+<span class="hljs-built_in">console</span>.log(x == <span class="hljs-string">&quot;5&quot;</span>);
+<span class="hljs-built_in">console</span>.log(x === <span class="hljs-string">&quot;5&quot;</span>);
+</code></pre>
+<p><strong>&#x9663;&#x5217;</strong></p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> people = [{
+    firstname: <span class="hljs-string">&apos;ailin&apos;</span>,
+    lastname: <span class="hljs-string">&apos;liou&apos;</span>
+
+  },{
+    firstname: <span class="hljs-string">&apos;Jane&apos;</span>,
+    lastname: <span class="hljs-string">&apos;Doe&apos;</span>
+  }
+];
+
+<span class="hljs-keyword">var</span> lang = [<span class="hljs-string">&apos;&#x4E2D;&#x6587;&apos;</span>, <span class="hljs-string">&apos;&#x82F1;&#x6587;&apos;</span>];
+
+<span class="hljs-comment">// &#x9663;&#x5217;&#x9577;&#x5EA6;</span>
+lang.length;
+
+lang.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">item</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(item);
+});
+</code></pre>
+<p><strong>&#x51FD;&#x5F0F;</strong></p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">greet</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;&#x54C8;&#x56C9;&apos;</span>);
+}
+
+greet();
+</code></pre>
+<p><strong>callback &#x51FD;&#x5F0F;</strong></p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> lang = [<span class="hljs-string">&apos;&#x4E2D;&#x6587;&apos;</span>, <span class="hljs-string">&apos;&#x82F1;&#x6587;&apos;</span>];
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">callback</span>(<span class="hljs-params">item</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(item);
+}
+
+lang.forEach(callback);
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../install/vscode.html" class="navigation navigation-prev " aria-label="Previous page: 安裝 VS Code">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../mise/npm.html" class="navigation navigation-next " aria-label="Next page: NPM 套件管理工具">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Javascript 基礎","level":"1.5.2","depth":2,"next":{"title":"NPM 套件管理工具","level":"1.5.3","depth":2,"path":"mise/npm.md","ref":"mise/npm.md","articles":[]},"previous":{"title":"安裝 VS Code","level":"1.5.1","depth":2,"path":"install/vscode.md","ref":"install/vscode.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"fontState":{"size":"2","family":"sans","theme":"night"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"alincode <alincode@gmail.com>","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"2017 德明財經科技大學 - 網站自動化測試課程","language":"zh","gitbook":"*"},"file":{"path":"foundation/js.md","mtime":"2021-03-04T07:46:16.517Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-03-04T07:47:07.990Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
