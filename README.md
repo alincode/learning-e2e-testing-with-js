@@ -19,7 +19,7 @@
 
 如發現內容勘誤，歡迎利用這些管道和我聯繫：
 
-- 使用 [GitHub Issues](https://github.com/alincode/takming-testing/issues) 回報錯誤
+- 使用 [GitHub Issues](https://github.com/alincode/learning-e2e-testing-with-js/issues) 回報錯誤
 - 發 pull request
 - 寄信到 alin.code@gmail.com
 
